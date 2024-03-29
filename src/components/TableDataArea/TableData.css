@@ -1,0 +1,43 @@
+.outerContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 10px;
+  flex: 1;
+}
+.searchAndListArea {
+  flex-basis: 20%;
+  margin-right: 20px;
+}
+.searchArea {
+  margin-bottom: 20px;
+}
+.tableArea {
+  flex-basis: 80%;
+}
+.listBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.itemList {
+  padding: 10px 12px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff5f5;
+  border-radius: 16px;
+  box-shadow: 1px 1px 0px 1px #ccc;
+}
+
+.nameSubjectTextBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.subName {
+  font-size: 12px;
+  color: #222124b3;
+  margin-top: 1px;
+}

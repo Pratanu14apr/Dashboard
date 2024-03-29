@@ -1,0 +1,46 @@
+.sideBarContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+}
+.upper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 25px;
+}
+.logo a {
+  text-decoration: none;
+}
+
+.logo a p {
+  font-size: 30px;
+  font-weight: 700;
+  color: #222124;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menuEachItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menuTextStyle {
+  font-size: 14px;
+  color: #222124;
+}
+
+.menuAnchor {
+  text-decoration: none;
+}

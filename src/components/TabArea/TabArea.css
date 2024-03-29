@@ -1,0 +1,28 @@
+.tabBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemContainer {
+  flex-basis: 24%;
+  padding: 10px 15px 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text1 {
+  font-size: 14px;
+  color: #505050;
+}
+.text2 {
+  font-size: 18px;
+}
+.hatch {
+  color: #ff7381;
+  font-size: 24px;
+}
